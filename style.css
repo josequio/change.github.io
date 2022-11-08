@@ -1,0 +1,44 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: inherit;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(10, 10, 10);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 226, 71);
+}
+.container_h2{
+    padding: 2rem;
+}
+.h2{
+    
+}
+.container_p{
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(20, 20, 235,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.p{
+    font-size: 2rem;
+    transition: 2s;
+}
